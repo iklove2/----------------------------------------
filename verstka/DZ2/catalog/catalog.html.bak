@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>РљР°С‚Р°Р»РѕРі. РЈСЂРѕРє 1. Р’РІРµРґРµРЅРёРµ Рё РћСЃРЅРѕРІС‹ HTML</title>
+    <title>Каталог. Урок 1. Введение и Основы HTML</title>
 </head>
 <body>
     <!--iklove2.github.io/meet_web_technology/verstka/DZ2/-->
     <nav>
-        <a href="index.html"> РљР°С‚Р°Р»РѕРі </a>
-        <a href="catalog/catalog.html"> РљР°С‚Р°Р»РѕРі </a>
-        <a href="contakt.html"> РљРѕРЅС‚Р°РєС‚С‹ </a>
+        <a href="index.html"> Каталог </a>
+        <a href="catalog/catalog.html"> Каталог </a>
+        <a href="contakt.html"> Контакты </a>
     </nav>
-    <h1>Р“Р»Р°РІРЅР°СЏ</h1>
+    <h1>Главная</h1>
     <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Alias fugit explicabo porro doloremque iusto eveniet ducimus expedita maxime,
@@ -28,15 +28,15 @@
         quibusdam enim laudantium neque velit totam nemo maxime odio ullam, optio voluptatum magni nulla
         ipsam alias possimus repellendus. Dicta vel animi laudantium dolores amet exercitationem accusantium fuga autem eius neque.
     </p>
-    <img src="../img/space.jpg" width="350" alt="РџРµСЂРІС‹Р№ С‚РѕРІР°СЂ"">
-    <p>РЎСѓРїРµСЂ РєР»Р°СЃРЅС‹Р№ С‚РѕРІР°СЂ 1</p>
-    <p>Р­С‚Рѕ СЃР°РјС‹Р№ Р»СѓС‡С€РёР№ РІС‹Р±РѕСЂ 1, РІР°Рј РїРѕРЅСЂР°РІРёС‚СЊСЃСЏ РѕС‡РµРЅСЊ СЃРёР»СЊРЅРѕ</p>
-    <img src="../img/world.jpg" width="350"  alt="Р’С‚РѕСЂРѕР№ С‚РѕРІР°СЂ">
-    <p>РЎСѓРїРµСЂ РєР»Р°СЃРЅС‹Р№ С‚РѕРІР°СЂ 2</p>
-    <p>Р­С‚Рѕ СЃР°РјС‹Р№ Р»СѓС‡С€РёР№ РІС‹Р±РѕСЂ 2, РІР°Рј РїРѕРЅСЂР°РІРёС‚СЊСЃСЏ РѕС‡РµРЅСЊ СЃРёР»СЊРЅРѕ</p>
-    <img src="../img/natural.jpg" width="350"  alt="РўСЂРµС‚РёР№ С‚РѕРІР°СЂ">
-    <p>РЎСѓРїРµСЂ РєР»Р°СЃРЅС‹Р№ С‚РѕРІР°СЂ 3</p>
-    <p>Р­С‚Рѕ СЃР°РјС‹Р№ Р»СѓС‡С€РёР№ РІС‹Р±РѕСЂ 3, РІР°Рј РїРѕРЅСЂР°РІРёС‚СЊСЃСЏ РѕС‡РµРЅСЊ СЃРёР»СЊРЅРѕ</p>
+    <img src="img/space.jpg" Первый товар>
+    <p>Супер класный товар 1</p>
+    <p>Это самый лучший выбор 1, вам понравиться очень сильно</p>
+    <img src="img/world.jpg" Первый товар>
+    <p>Супер класный товар 2</p>
+    <p>Это самый лучший выбор 2, вам понравиться очень сильно</p>
+    <img src="img/natural.jpg" Первый товар>
+    <p>Супер класный товар 3</p>
+    <p>Это самый лучший выбор 3, вам понравиться очень сильно</p>
 
 </body>
 </html>
