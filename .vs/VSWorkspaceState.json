@@ -1,7 +1,17 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\verstka",
+    "\\verstka\\DZ2",
+    "\\verstka\\DZ2\\img",
+    "\\verstka\\DZ3",
+    "\\verstka\\DZ3\\catalog",
+    "\\verstka\\dz3_fligma",
+    "\\verstka\\dz3_fligma\\css",
+    "\\verstka\\DZ5",
+    "\\verstka\\DZ6",
+    "\\verstka\\DZ6\\css"
   ],
-  "SelectedNode": "\\D:\\gbобучение\\meet_web_technology2",
+  "SelectedNode": "\\verstka\\DZ6\\img",
   "PreviewInSolutionExplorer": false
 }
