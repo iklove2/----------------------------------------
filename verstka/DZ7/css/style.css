@@ -9,7 +9,6 @@ body {
     width: 100%;
     /*max-width: 1920px;*/
     margin: 0 auto;
-
 }
 
 a {
@@ -25,7 +24,6 @@ li {
     /*   padding-left: calc(50% - 800px);
     padding-right: calc(50% - 800px);*/
     margin-bottom: 65px;
-
 }
 
 .top_header {
@@ -41,6 +39,7 @@ li {
 }
 
 .top_header_btn_wrap {
+    margin-left: 16px;
     width: 50%;
     display: flex;
 }
@@ -74,6 +73,7 @@ li {
     width: 50%;
     margin-top: 18px;
     margin-bottom: 20px;
+    margin-right: 32px;
     display: flex;
     justify-content: flex-end;
 }
@@ -109,7 +109,6 @@ li {
     padding-left: 32px;
     background-color: #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
 }
 
 .nav_menu_lists:hover {
@@ -178,7 +177,7 @@ li {
     min-height: 764px;
     width: 50%;
     background: url(../img/topimage.png) no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
@@ -219,18 +218,13 @@ li {
 }
 
 .top_content_text_title_next_fash {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
     color: #F16D7F;
 }
 
 
 
 .shop_menu {
-
     display: grid;
-
     justify-content: center;
     grid-template-columns: repeat(3, 360px);
     gap: 30px;
@@ -253,8 +247,7 @@ li {
     display: flex;
     align-items: center;
     position: relative;
-    width: 100%;
-    min-height: 260px;
+    /*min-height: 260px;*/
     background-position: center;
     background: url(../img/formen.png) no-repeat;
     background-size: contain;
@@ -275,7 +268,6 @@ li {
     display: flex;
     align-items: center;
     position: relative;
-    width: 100%;
     min-height: 260px;
     background: url(../img/forwomen.png) no-repeat;
     background-position: center;
@@ -297,8 +289,7 @@ li {
     display: flex;
     align-items: center;
     position: relative;
-    width: 100%;
-    min-height: 260px;
+    /*min-height: 260px;*/
     background: url(../img/forkids.png) rgba(33, 22, 22, .7) no-repeat;
     background-position: center;
     background-size: contain;
@@ -320,7 +311,6 @@ li {
     grid-column: span 3;
     position: relative;
     grid-row: span 1;
-    width: 100%;
     align-items: center;
     min-height: 180px;
     background: url(../img/accesories.png) rgba(33, 22, 22, .7) no-repeat;
@@ -339,10 +329,21 @@ li {
     z-index: 1;
 }
 
-.shop_menu_titles {
+.shop_menu_a_titles {
+    /*min-height: 180px;
     /* padding-bottom: calc(50% - 130px);
     padding-top: calc(50% - 130px);*/
     width: 100%;
+    z-index: 3;
+    /*height: 100%;*/
+}
+
+.shop_menu_titles {
+    /* min-height: 260px;
+    /* padding-bottom: calc(50% - 130px);
+    padding-top: calc(50% - 130px);*/
+    width: 100%;
+    z-index: 3;
     /*height: 100%;*/
 }
 
@@ -368,7 +369,7 @@ li {
 .shop_content {
 
     max-width: 1140px;
-    max-height: 470px;
+    min-height: 470px;
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
     flex-wrap: wrap;
@@ -544,7 +545,7 @@ li {
 
 
 .shop_items_products_btn {
-   /* grid-column: span 3;*/
+    /* grid-column: span 3;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -568,10 +569,54 @@ li {
 
 }
 
+@media (min-width: 1025px) and (max-width: 1140px) {
+    .top_content_img {
+        min-height: 368px;
+        background-size: contain;
+    }
+
+
+    .shop_menu {
+        grid-template-columns: repeat(3, 232px);
+        gap: 18px;
+        position: relative;
+        margin-bottom: 110px;
+    }
+
+    .shop_menu_men {
+        min-height: 167px;
+    }
+
+    .shop_menu_women {
+        min-height: 167px;
+    }
+
+    .shop_menu_kids {
+        min-height: 167px;
+    }
+
+    .shop_menu_accessories {
+        min-height: 116px;
+    }
+
+    .top_content_text_title {
+        font-size: 44px;
+    }
+
+    .top_content_text_title_next {
+        font-size: 24px;
+    }
+
+    .top_content_text_title_next_fash {
+        font-size: 24px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .top_content_img {
         min-height: 368px;
+        background-size: contain;
     }
 
     .shop_menu {
@@ -595,6 +640,115 @@ li {
 
     .shop_menu_accessories {
         min-height: 116px;
+    }
+
+    .top_content_text_title {
+        font-size: 44px;
+    }
+
+    .top_content_text_title_next {
+        font-size: 24px;
+    }
+
+    .top_content_text_title_next_fash {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+
+    .top_nav_menu_burger {
+        margin-right: 16px;
+    }
+
+    .top_nav_menu_profil {
+        display: none;
+    }
+
+    .top_nav_menu_cart {
+        display: none;
+    }
+
+    .top_content_text {
+        min-height: 363px;
+    }
+
+    .top_content_img {
+        display: none;
+    }
+
+    .top_content_text {
+        width: 100%;
+    }
+
+    .top_content_text_box {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .top_content_text_title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .top_content_text_title_next {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+
+    .top_content_text_box::before {
+        display: block;
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 61px;
+        top: 0;
+        left: -24px;
+        background: #F16D7F;
+    }
+
+    .shop_menu {
+        display: block;
+        gap: 32px;
+        position: relative;
+        margin-bottom: 110px;
+        flex-wrap: wrap;
+    }
+
+    .shop_menu_men {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+        width: 343px;
+        min-height: 247px;
+    }
+
+    .shop_menu_women {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+        width: 343px;
+        min-height: 247px;
+    }
+
+    .shop_menu_kids {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+        width: 343px;
+        min-height: 247px;
+    }
+
+    .shop_menu_accessories {
+        margin-left: auto;
+        margin-right: auto;
+        width: 343px;
+        min-height: 111px;
+        background-size: cover;
     }
 
     .top_content_text_title {
